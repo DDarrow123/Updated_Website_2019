@@ -4,16 +4,12 @@ class NavBar extends Component {
   render() {
     return (
       <>
-        <header className="App-header">
-          <p>Test here for Heroku!</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
+        <header className="row">
+          <div className="row__my-name">
+            <h3>Devon Darrow</h3>
+          </div>
+          <div className="row__contact">Contact</div>
         </header>
-        <div>Main Page</div>
       </>
     );
   }

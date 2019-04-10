@@ -1,0 +1,43 @@
+.row {
+  background-color: grey;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  &__my-name {
+    flex: 0 0 50%;
+    margin: 1em 0 3em 0;
+    justify-content: flex-start;
+  }
+  &__contact {
+    flex: 0 0 70%;
+    margin-top: 1em;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 650px) {
+  .row {
+    &__my-name {
+      flex: 0 0 30%;
+    }
+    &__contact {
+      flex: 0 0 120%;
+      margin-top: 1em;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .row {
+    &__my-name {
+      flex: 0 0 20%;
+    }
+    &__contact {
+      flex: 0 0 150%;
+      margin-top: 1em;
+    }
+  }
+}

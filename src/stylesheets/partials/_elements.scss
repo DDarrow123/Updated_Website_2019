@@ -1,0 +1,43 @@
+.descriptor-list {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 70px 70px 70px;
+  padding: 10px;
+  &__list-element-1 {
+    text-align: left;
+    // grid-column: ;
+    background-color: pink;
+    padding: 10px;
+  }
+  &__list-element-2 {
+    text-align: left;
+    // grid-column: ;
+    background-color: pink;
+    padding: 10px;
+  }
+  &__list-element-3 {
+    text-align: left;
+    // grid-column: ;
+    background-color: pink;
+    padding: 10px;
+  }
+  &__list-element-4 {
+    text-align: left;
+    // grid-column: ;
+    background-color: pink;
+    padding: 10px;
+  }
+  &__list-element-5 {
+    text-align: left;
+    // grid-column: ;
+    background-color: pink;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 650px) {
+}
+
+@media (min-width: 1000px) {
+}
