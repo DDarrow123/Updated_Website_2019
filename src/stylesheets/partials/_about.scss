@@ -1,0 +1,21 @@
+.about-para {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 60px 60px 40px;
+  &__about-title {
+    text-align: left;
+    margin-left: 1em;
+  }
+  &__about-description {
+    margin-left: 1em;
+  }
+  &__tech {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 650px) {
+}
+
+@media (min-width: 1000px) {
+}

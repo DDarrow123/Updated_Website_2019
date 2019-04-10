@@ -1,11 +1,11 @@
 .row {
-  background-color: grey;
+  background-color: white;
   min-height: 30vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
   &__my-name {
     flex: 0 0 50%;
     margin: 1em 0 3em 0;
