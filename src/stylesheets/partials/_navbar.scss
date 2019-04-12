@@ -12,13 +12,14 @@
     justify-content: flex-start;
     h3 {
       font-size: 8vh;
+      color: black;
       span {
         margin-left: 1em;
       }
     }
   }
   &__contact {
-    flex: 0 0 70%;
+    flex: 0 0 40%;
     margin-top: 1em;
     justify-content: flex-end;
   }
@@ -41,14 +42,15 @@
     &__my-name {
       flex: 0 0 20%;
       h3 {
-        font-size: 12vh;
-        // span {
-        //   margin-left
-        // }
+        font-size: 15vh;
+        font-weight: 400;
+        span {
+          margin-left: 2em;
+        }
       }
     }
     &__contact {
-      flex: 0 0 140%;
+      flex: 0 0 90%;
       margin-top: 1em;
     }
   }

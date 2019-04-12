@@ -13,7 +13,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-para">
-        <h5 className="about-para__about-title">About</h5>
+        <h5 className="about-para__about-title">ABOUT</h5>
         <p className="about-para__about-description">
           After working in the fashion industry for three years, and gaining
           exposure to the ecommerce side of a large luxury retailer, I became
@@ -23,7 +23,9 @@ class About extends Component {
           web development with a focus on the frontend crafting beautiful user
           interfaces with focused design aesthetics. Currently, I'm diving into
           UX design, responsive design, CSS libraries, and going deep (black
-          hole style) into React and JavaScript. May I never touch bottom.
+          hole style) into React and JavaScript.
+          <br />
+          <span>May I never touch bottom.</span>
         </p>
         <div className="about-para__tech">
           <div className="heart-title">
@@ -52,7 +54,7 @@ class About extends Component {
             </div>
           </IconContext.Provider>
           <IconContext.Provider
-            value={{ color: "#F21515", className: "react-icon", size: 70 }}
+            value={{ color: "#F21515", className: "react-icon", size: 65 }}
           >
             <div>
               <DiStackoverflow />
