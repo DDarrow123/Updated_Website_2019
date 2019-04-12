@@ -6,7 +6,9 @@ class NavBar extends Component {
       <>
         <header className="row">
           <div className="row__my-name">
-            <h3>Devon Darrow</h3>
+            <h3>
+              Devon <span>Darrow</span>
+            </h3>
           </div>
           <div className="row__contact">Contact</div>
         </header>

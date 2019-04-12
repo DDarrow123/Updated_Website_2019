@@ -10,6 +10,12 @@
     flex: 0 0 50%;
     margin: 1em 0 3em 0;
     justify-content: flex-start;
+    h3 {
+      font-size: 8vh;
+      span {
+        margin-left: 1em;
+      }
+    }
   }
   &__contact {
     flex: 0 0 70%;
@@ -34,9 +40,15 @@
   .row {
     &__my-name {
       flex: 0 0 20%;
+      h3 {
+        font-size: 12vh;
+        // span {
+        //   margin-left
+        // }
+      }
     }
     &__contact {
-      flex: 0 0 150%;
+      flex: 0 0 140%;
       margin-top: 1em;
     }
   }
