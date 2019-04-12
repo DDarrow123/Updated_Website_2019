@@ -5,7 +5,7 @@
   grid-template-rows: 70px 70px 70px 70px 70px;
   padding: 10px;
   &__list-element-1 {
-    font-size: 5vw;
+    font-size: 10vh;
     text-align: left;
     color: white;
     // grid-column: ;
@@ -13,7 +13,7 @@
     padding: 10px;
   }
   &__list-element-2 {
-    font-size: 5vw;
+    font-size: 10vh;
     text-align: left;
     color: white;
     // grid-column: ;
@@ -21,7 +21,7 @@
     padding: 10px;
   }
   &__list-element-3 {
-    font-size: 5vw;
+    font-size: 8.2vh;
     text-align: left;
     color: #213f59;
     // grid-column: ;
@@ -30,7 +30,7 @@
     border: 5px solid black;
   }
   &__list-element-4 {
-    font-size: 5vw;
+    font-size: 10vh;
     text-align: left;
     color: white;
     // grid-column: ;
@@ -38,7 +38,7 @@
     padding: 10px;
   }
   &__list-element-5 {
-    font-size: 5vw;
+    font-size: 10vh;
     text-align: left;
     color: white;
     // grid-column: ;
@@ -48,6 +48,55 @@
 }
 
 @media (min-width: 650px) {
+  .descriptor-list {
+    // display: grid;
+    // grid-gap: 10px;
+    // grid-template-columns: 1fr;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    // padding: 10px;
+    &__list-element-1 {
+      font-size: 9vw;
+      // text-align: left;
+      // color: white;
+      // // grid-column: ;
+      // background-color: #213f59;
+      // padding: 10px;
+    }
+    &__list-element-2 {
+      font-size: 9vw;
+      // text-align: left;
+      // color: white;
+      // // grid-column: ;
+      // background-color: #f21515;
+      // padding: 10px;
+    }
+    &__list-element-3 {
+      font-size: 9vw;
+      // text-align: left;
+      // color: white;
+      // // grid-column: ;
+      // background-color: #e8e3e4;
+      // color: black;
+      // padding: 10px;
+      // border: 5px solid black;
+    }
+    &__list-element-4 {
+      font-size: 9vw;
+      //   text-align: left;
+      //   color: white;
+      //   // grid-column: ;
+      //   background-color: #f21515;
+      //   padding: 10px;
+    }
+    &__list-element-5 {
+      font-size: 9vw;
+      // text-align: left;
+      // color: white;
+      // // grid-column: ;
+      // background-color: #213f59;
+      // padding: 10px;
+    }
+  }
 }
 
 @media (min-width: 1000px) {
