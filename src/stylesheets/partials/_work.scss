@@ -1,30 +1,39 @@
 .work-container {
   &__work-title {
+    margin-top: 20%;
     font-size: 12vw;
   }
   &__project-container {
-    margin: 10% 2% 2% 2%;
+    margin: 10% 4% 4% 4%;
     display: grid;
-    grid-gap: 80px 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 150px 150px;
+    grid-gap: 60px 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px;
     .work-1 {
       background-color: white;
+      .hover-title {
+        font-size: 6vw;
+        margin-bottom: 15em;
+      }
       img {
-        width: 100%;
-        height: auto;
-        &:hover {
-          opacity: 0.1;
-          // background: rgba(33, 63, 89, 0.5);
-        }
+        width: auto;
+        height: 30vh;
+        // &:hover {
+        //   opacity: 0.1;
+        //   // background: rgba(33, 63, 89, 0.5);
+        // }
       }
     }
     .work-2 {
       background-color: pink;
       // height: 600px;
-      &:hover {
-        // opacity: 0.1;
-        background-color: rgba(33, 63, 89, 0.1);
+      // &:hover {
+      //   // opacity: 0.1;
+      //   background-color: rgba(33, 63, 89, 0.1);
+      // }
+      .hover-title {
+        font-size: 6vw;
+        margin-bottom: 15em;
       }
     }
     .work-3 {
@@ -38,12 +47,48 @@
 }
 
 @media (min-width: 650px) {
+  .work-container {
+    &__work-title {
+      font-size: 11vw;
+    }
+    &__project-container {
+      margin: 10% 2% 2% 2%;
+      display: grid;
+      grid-gap: 60px 20px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 300px 300px;
+      .work-1 {
+        background-color: pink;
+        img {
+          width: 80%;
+          height: auto;
+          &:hover {
+            opacity: 0.1;
+            // background: rgba(33, 63, 89, 0.5);
+          }
+        }
+      }
+      .work-2 {
+        background-color: pink;
+        &:hover {
+          // opacity: 0.1;
+          background-color: rgba(33, 63, 89, 0.1);
+        }
+      }
+      .work-3 {
+        background-color: pink;
+        &:hover {
+          opacity: 0.1;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 1000px) {
   .work-container {
     &__work-title {
-      font-size: 10vw;
+      font-size: 9vw;
     }
     &__project-container {
       margin: 10% 2% 2% 2%;
